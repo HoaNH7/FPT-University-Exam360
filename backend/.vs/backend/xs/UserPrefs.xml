@@ -1,0 +1,114 @@
+﻿<Properties StartupConfiguration="{01205870-99BF-4351-814C-A3C08A6DD4D2}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.backend PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
+    <Files>
+      <File FileName="Controllers/Proctor/GetScheduleOfProctor.cs" Line="10" Column="44" IsPinned="True" />
+      <File FileName="Models/User.cs" />
+      <File FileName="Models/Role.cs" />
+      <File FileName="appsettings-dev.json" />
+      <File FileName="DTOs/CampusDTO.cs" />
+      <File FileName="DTOs/UserEmailDTO.cs" />
+      <File FileName="Models/Campus.cs" />
+      <File FileName="Repositories/UserRepository.cs" />
+      <File FileName="Controllers/Auth/AuthController.cs" Line="129" Column="38" />
+      <File FileName="Models/Schedule.cs" />
+      <File FileName="Models/Subject.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="DTOs/ExamCodeSubjectScheduleDTO.cs" />
+      <File FileName="Services/UserService.cs" />
+      <File FileName="Models/UserRole.cs" />
+      <File FileName="Controllers/Proctor/CheckInController.cs" Line="15" Column="44" />
+      <File FileName="DTOs/CheckInDTO.cs" />
+      <File FileName="Controllers/Proctor/ReceiveExamCodeController.cs" Line="1" Column="1" />
+      <File FileName="../../../../../../usr/local/share/dotnet/sdk/6.0.100/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" />
+      <File FileName="App/Extentions/AppServiceExtentions.cs" />
+      <File FileName="Controllers/User/UserController.cs" Line="16" Column="24" />
+      <File FileName="Repositories/IUserRepository.cs" />
+      <File FileName="appsettings.json" Line="29" Column="2" />
+      <File FileName="Services/IUserService.cs" />
+      <File FileName="Authorization/JwtUtils.cs" />
+      <File FileName="Authorization/JwtMiddleware.cs" Line="1" Column="1" />
+      <File FileName="Models/Request.cs" />
+      <File FileName="Models/StudentRequest.cs" />
+      <File FileName="Controllers/Examiner/ReceiveRequestController.cs" Line="15" Column="45" />
+      <File FileName="Models/Violation.cs" />
+      <File FileName="Models/Student.cs" />
+      <File FileName="Models/StudentImage.cs" />
+      <File FileName="DTOs/StudentCheckInStatusDTO.cs" />
+      <File FileName="DTOs/UpdateRequestDto.cs" />
+      <File FileName="Controllers/Proctor/RequestController.cs" Line="12" Column="44" />
+      <File FileName="Controllers/Proctor/CheckOutController.cs" Line="11" Column="44" />
+      <File FileName="Models/SEP490_V3Context.cs" Line="54" Column="40" />
+      <File FileName="Controllers/Proctor/ScheduleController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/Proctor/ViolationController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/HallwayProctor/HallwayProctorController.cs" Line="1" Column="1" />
+      <File FileName="Models/StudentRoomSubject.cs" />
+      <File FileName="Models/StudentSubmission.cs" />
+      <File FileName="Controllers/Examiner/ListStudentCheckInController.cs" Line="9" Column="45" />
+      <File FileName="Models/Checkin.cs" />
+      <File FileName="Models/ExamCode.cs" />
+      <File FileName="Models/ExamRoom.cs" />
+      <File FileName="Controllers/FptExamApi/ExamController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/ExaminerHead/ExamScheduleFromFAP.cs" Line="1" Column="1" />
+      <File FileName="Controllers/Admin/ManageCampusController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/Admin/ManageUserController.cs" Line="1" Column="1" />
+      <File FileName="Authorization/Role.cs" />
+      <File FileName="Controllers/Examiner/ExaminerHandleRequest.cs" Line="1" Column="1" />
+      <File FileName="Controllers/Examiner/ExportController.cs" Line="15" Column="45" />
+      <File FileName="Controllers/Examiner/ListStudentCheckOutController.cs" Line="10" Column="45" />
+      <File FileName="Controllers/Examiner/ReceiveViolationController.cs" Line="13" Column="45" />
+      <File FileName="Controllers/ExaminerHead/AssignProctorController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/ExaminerHead/ExamRoomController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/ExaminerHead/ManageCampusUserController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/ITStaff/ReceiveRequestResetPassword.cs" Line="1" Column="1" />
+      <File FileName="Controllers/Proctor/ListFileDatController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/StatisticController/StatisticController.cs" Line="11" Column="49" />
+      <File FileName="Controllers/StudentF/FileUploadController.cs" Line="1" Column="1" />
+      <File FileName="Authorization/CookieService.cs" />
+      <File FileName="Authorization/AuthorizeAttribute.cs" Line="31" Column="1" />
+      <File FileName="Authorization/AllowAnonymousAttribute.cs" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="AzureBlobStorageSettings.cs" />
+      <File FileName="WeatherForecast.cs" />
+      <File FileName="DTOs/StudentRoomSubjectDTO.cs" />
+      <File FileName="DTOs/StudentOfScheduleDTO.cs" />
+      <File FileName="DTOs/ExamRoomDTO.cs" />
+      <File FileName="MockData/ScheduleService.cs" />
+      <File FileName="DTOs/StudentCheckOutStatusDTO.cs" />
+      <File FileName="Controllers/ExaminerHead/ExamCodeController.cs" Line="11" Column="49" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="backend">
+            <Node name="backend">
+              <Node name="Authorization" expanded="True" />
+              <Node name="Controllers">
+                <Node name="Admin" expanded="True" />
+                <Node name="FptExamApi" expanded="True" />
+                <Node name="HallwayProctor" expanded="True" />
+                <Node name="ITStaff" expanded="True" />
+                <Node name="StudentF" expanded="True" />
+                <Node name="User" expanded="True" />
+              </Node>
+              <Node name="DTOs" expanded="True" />
+              <Node name="MockData" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/nguyendinhcuong/Documents/SEP490_21JUL/sep490-g52/backend/Controllers/Proctor/CheckInController.cs" relfile="Controllers/Proctor/CheckInController.cs" line="37" column="1" />
+      <Breakpoint file="/Users/nguyendinhcuong/Documents/SEP490_21JUL/sep490-g52/backend/Controllers/Examiner/ReceiveRequestController.cs" relfile="Controllers/Examiner/ReceiveRequestController.cs" line="156" column="1" />
+      <Breakpoint file="/Users/nguyendinhcuong/Documents/SEP490_21JUL/sep490-g52/backend/Controllers/Examiner/ReceiveRequestController.cs" relfile="Controllers/Examiner/ReceiveRequestController.cs" line="276" column="1" />
+      <Breakpoint file="/Users/nguyendinhcuong/Documents/SEP490_21JUL/sep490-g52/backend/Authorization/AuthorizeAttribute.cs" relfile="Authorization/AuthorizeAttribute.cs" line="31" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

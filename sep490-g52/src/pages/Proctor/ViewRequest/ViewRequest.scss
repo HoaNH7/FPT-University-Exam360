@@ -1,0 +1,151 @@
+.main-container-viewrequest {
+    height: 89.5vh;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.body-container-viewrequest {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.viewrequest-management-link {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.body-container-viewrequest p {
+    font-size: 14px;
+}
+
+.form-select-viewrequest {
+    margin-left: 5px;
+    height: 40px;
+}
+
+.body-container-viewrequest input[type='text'] {
+    width: 40%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.status-pending,
+.status-resolved,
+.status-rejected {
+    font-weight: bold;
+}
+
+.status-pending {
+    color: orange;
+}
+
+.status-resolved {
+    color: rgb(22, 218, 22);
+}
+
+.status-rejected {
+    color: red;
+}
+
+.viewrequest-table td .status-text {
+    font-weight: bold;
+}
+
+.body-container-viewrequest button {
+    margin-left: 3px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.viewrequest-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.viewrequest-table th,
+.viewrequest-table td {
+    border: 1px solid #ddd;
+    // padding: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.viewrequest-table tbody tr:nth-child(even) {
+    background-color: #e9e9e9;
+}
+
+.viewrequest-table thead tr th {
+    background-color: #e9e9e9;
+}
+
+.checkin-body {
+    display: block;
+}
+
+.checkin-edit {
+    width: 46px;
+}
+
+.filter-viewrequest {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .viewrequest-table,
+    .viewrequest-table thead,
+    .viewrequest-table tbody,
+    .viewrequest-table th,
+    .viewrequest-table td,
+    .viewrequest-table tr {
+        display: block;
+    }
+
+    .body-container-viewrequest button {
+        margin-left: 3px;
+        font-size: 12px;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    .viewrequest-table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .viewrequest-table tr {
+        border: 1px solid #b3b1b1;
+        margin-bottom: 5px;
+    }
+
+    .viewrequest-table td {
+        border: none;
+        border-bottom: 1px solid #b3b1b1;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .viewrequest-table td:before {
+        position: absolute;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: right;
+        font-weight: 400;
+        content: attr(data-title);
+    }
+}

@@ -1,0 +1,126 @@
+.main-container-checksubmit {
+    height: 89.5vh;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.body-container-checksubmit {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.handrequest-management-link {
+    text-decoration: none;
+}
+
+.body-container-checksubmit p {
+    font-size: 14px;
+}
+
+.body-container-checksubmit p,
+.body-container-checksubmit input {
+    margin-right: 10px;
+}
+
+.body-container-checksubmit input[type='text'] {
+    width: 30%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.body-container-checksubmit button {
+    margin-left: 3px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.checksubmit-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.checksubmit-table th,
+.checksubmit-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.checksubmit-table tbody tr:nth-child(even) {
+    background-color: #e9e9e9;
+}
+
+.checksubmit-table thead tr th {
+    background-color: #e9e9e9;
+}
+
+.checkin-body {
+    display: block;
+}
+
+.checkin-edit {
+    width: 46px;
+}
+
+.filter-checksubmit {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .checksubmit-table,
+    .checksubmit-table thead,
+    .checksubmit-table tbody,
+    .checksubmit-table th,
+    .checksubmit-table td,
+    .checksubmit-table tr {
+        display: block;
+    }
+
+    .body-container-checksubmit button {
+        margin-left: 3px;
+        font-size: 12px;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    .checksubmit-table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .checksubmit-table tr {
+        border: 1px solid #b3b1b1;
+        margin-bottom: 5px;
+    }
+
+    .checksubmit-table td {
+        border: none;
+        border-bottom: 1px solid #b3b1b1;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align: left;
+    }
+
+    .checksubmit-table td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: left;
+        font-weight: bold;
+        content: attr(data-title);
+    }
+}

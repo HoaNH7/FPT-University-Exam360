@@ -1,0 +1,29 @@
+.footer-1 {
+    background-color: #fff;
+    display: flex;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #f4f4f4;
+    z-index: 100000000;
+}
+.footer span {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.cpright-icon {
+    margin-right: 3px;
+}
+.inf-aboutus {
+    padding-top: 3px;
+}
+.inf-aboutus span {
+    margin-left: 0px;
+}
+.aboutus-link {
+    text-decoration: none;
+}

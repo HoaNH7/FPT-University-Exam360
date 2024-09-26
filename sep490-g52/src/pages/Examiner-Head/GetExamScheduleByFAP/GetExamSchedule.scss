@@ -1,0 +1,199 @@
+.main-container-getexamschedule {
+    height: 89.5vh;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.getexamschedule-management-header {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+
+.getexamschedule-management-link {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.body-container-getexamschedule {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.body-container-getexamschedule p {
+    font-size: 14px;
+}
+
+.body-container-getexamschedule p,
+.body-container-getexamschedule input,
+.body-container-getexamschedule button {
+    margin-right: 10px;
+}
+.body-container-getexamschedule input[type='text'] {
+    width: 30%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.body-container-getexamschedule button {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.getexamschedule-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.getexamschedule-table thead {
+    background-color: #e9e9e9;
+}
+
+.getexamschedule-table th,
+.getexamschedule-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.getexamschedule-table tbody tr:nth-child(even) {
+    background-color: #e9e9e9;
+}
+.main-container-getexamschedule {
+    padding: 20px;
+}
+
+.getexamschedule-management-header {
+    margin-bottom: 20px;
+}
+
+.filter-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+
+    .form-group {
+        margin: 0;
+    }
+
+    label {
+        margin-right: 10px;
+    }
+
+    input, select {
+        padding: 5px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+    }
+
+    button {
+        margin-top: 15px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 14px;
+
+        &:hover {
+            background-color: #0056b3;
+        }
+
+        &:disabled {
+            background-color: #a0a0a0;
+            cursor: not-allowed;
+        }
+    }
+}
+
+.PushSchedulebtn,
+.PushStudentbtn {
+    margin-bottom: 20px;
+
+    button {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 14px;
+
+        &:hover {
+            background-color: #218838;
+        }
+
+        &:disabled {
+            background-color: #a0a0a0;
+            cursor: not-allowed;
+        }
+    }
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .getexamschedule-table,
+    .getexamschedule-table thead,
+    .getexamschedule-table tbody,
+    .getexamschedule-table th,
+    .getexamschedule-table td,
+    .getexamschedule-table tr {
+        display: block;
+    }
+
+    .getexamschedule-table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .getexamschedule-table tr {
+        border: 1px solid #b3b1b1;
+        margin-bottom: 5px;
+    }
+
+    .getexamschedule-table td {
+        border: none;
+        border-bottom: 1px solid #b3b1b1;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align: left;
+    }
+
+    .getexamschedule-table td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: left;
+        font-weight: bold;
+        content: attr(data-title);
+    }
+}
+.success {
+    color: green;
+    font-weight: bold; /* Optional: to make the text stand out */
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold; /* Optional: to make the text stand out */
+  }

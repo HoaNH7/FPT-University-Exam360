@@ -1,0 +1,421 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|d:\\sep490_g52_v6\\sep490-g52\\backend\\controllers\\statisticcontroller\\statisticcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:controllers\\statisticcontroller\\statisticcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|d:\\sep490_g52_v6\\sep490-g52\\backend\\controllers\\proctor\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:controllers\\proctor\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|d:\\sep490_g52_v6\\sep490-g52\\backend\\controllers\\examiner\\examinerhandlerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:controllers\\examiner\\examinerhandlerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|D:\\SEP490_G52_v6\\sep490-g52\\backend\\controllers\\admin\\manageusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:controllers\\admin\\manageusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|D:\\SEP490_G52_v6\\sep490-g52\\backend\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|D:\\SEP490_G52_v6\\sep490-g52\\backend\\controllers\\examiner\\examcodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:controllers\\examiner\\examcodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|D:\\SEP490_G52_v6\\sep490-g52\\backend\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|D:\\SEP490_G52_v6\\sep490-g52\\backend\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|D:\\SEP490_G52_v6\\sep490-g52\\backend\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|D:\\SEP490_G52_v6\\sep490-g52\\backend\\models\\examcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:models\\examcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|D:\\SEP490_G52_v6\\sep490-g52\\backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|D:\\SEP490_G52_v6\\sep490-g52\\backend\\models\\examroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:models\\examroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|D:\\SEP490_G52_v6\\sep490-g52\\backend\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|D:\\SEP490_G52_v6\\sep490-g52\\backend\\models\\studentroomsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:models\\studentroomsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|D:\\SEP490_G52_v6\\sep490-g52\\backend\\controllers\\admin\\managecampuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:controllers\\admin\\managecampuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|D:\\SEP490_G52_v6\\sep490-g52\\backend\\models\\sep490_v3context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:models\\sep490_v3context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|D:\\SEP490_G52_v6\\sep490-g52\\backend\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|D:\\SEP490_G52_v6\\sep490-g52\\backend\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|D:\\SEP490_G52_v6\\sep490-g52\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|D:\\SEP490_G52_v6\\sep490-g52\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01205870-99BF-4351-814C-A3C08A6DD4D2}|backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckOutController.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Controllers\\Proctor\\CheckOutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Proctor\\CheckOutController.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Controllers\\Proctor\\CheckOutController.cs",
+              "RelativeToolTip": "Controllers\\Proctor\\CheckOutController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T14:02:27.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StatisticController.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Controllers\\StatisticController\\StatisticController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StatisticController\\StatisticController.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Controllers\\StatisticController\\StatisticController.cs",
+              "RelativeToolTip": "Controllers\\StatisticController\\StatisticController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T13:59:55.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExaminerHandleRequest.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Controllers\\Examiner\\ExaminerHandleRequest.cs",
+              "RelativeDocumentMoniker": "Controllers\\Examiner\\ExaminerHandleRequest.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Controllers\\Examiner\\ExaminerHandleRequest.cs",
+              "RelativeToolTip": "Controllers\\Examiner\\ExaminerHandleRequest.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAYwFgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:49:07.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentRoomSubject.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\StudentRoomSubject.cs",
+              "RelativeDocumentMoniker": "Models\\StudentRoomSubject.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\StudentRoomSubject.cs",
+              "RelativeToolTip": "Models\\StudentRoomSubject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:50:30.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExamCode.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\ExamCode.cs",
+              "RelativeDocumentMoniker": "Models\\ExamCode.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\ExamCode.cs",
+              "RelativeToolTip": "Models\\ExamCode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:57:55.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\Subject.cs",
+              "RelativeDocumentMoniker": "Models\\Subject.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\Subject.cs",
+              "RelativeToolTip": "Models\\Subject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:52:28.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExamCodeController.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Controllers\\Examiner\\ExamCodeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Examiner\\ExamCodeController.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Controllers\\Examiner\\ExamCodeController.cs",
+              "RelativeToolTip": "Controllers\\Examiner\\ExamCodeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:45:26.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDTO.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "DTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:04:49.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManageUserController.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Controllers\\Admin\\ManageUserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Admin\\ManageUserController.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Controllers\\Admin\\ManageUserController.cs",
+              "RelativeToolTip": "Controllers\\Admin\\ManageUserController.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAIwHUAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:31:38.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentDTO.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\DTOs\\StudentDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\StudentDTO.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\DTOs\\StudentDTO.cs",
+              "RelativeToolTip": "DTOs\\StudentDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:51:05.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExamRoom.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\ExamRoom.cs",
+              "RelativeDocumentMoniker": "Models\\ExamRoom.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\ExamRoom.cs",
+              "RelativeToolTip": "Models\\ExamRoom.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAA4wBMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:57:18.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:50:08.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Request.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\Request.cs",
+              "RelativeDocumentMoniker": "Models\\Request.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\Request.cs",
+              "RelativeToolTip": "Models\\Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:51:49.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA9wB4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:05:10.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ManageCampusController.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Controllers\\Admin\\ManageCampusController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Admin\\ManageCampusController.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Controllers\\Admin\\ManageCampusController.cs",
+              "RelativeToolTip": "Controllers\\Admin\\ManageCampusController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:12:06.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SEP490_V3Context.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\SEP490_V3Context.cs",
+              "RelativeDocumentMoniker": "Models\\SEP490_V3Context.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\SEP490_V3Context.cs",
+              "RelativeToolTip": "Models\\SEP490_V3Context.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwB4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:28:04.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:11:02.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "Models\\UserRole.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Models\\UserRole.cs",
+              "RelativeToolTip": "Models\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:10:54.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T10:28:05.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\SEP490_G52_v6\\sep490-g52\\backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:28:05.209Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 211,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+.main-container-viewrecordproctor {
+    height: 89.5vh;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.body-container-viewrecordproctor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.viewrecordproctor-management-link {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.body-container-viewrecordproctor p {
+    font-size: 14px;
+}
+
+.form-select-viewrecordproctor {
+    margin-left: 5px;
+    height: 40px;
+}
+
+.body-container-viewrecordproctor input[type='text'] {
+    width: 40%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.body-container-viewrecordproctor button {
+    margin-left: 3px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.viewrecordproctor-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.viewrecordproctor-table th,
+.viewrecordproctor-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.viewrecordproctor-table tbody tr:nth-child(even) {
+    background-color: #e9e9e9;
+}
+
+.viewrecordproctor-table thead tr th {
+    background-color: #e9e9e9;
+}
+
+.checkin-body {
+    display: block;
+}
+
+.checkin-edit {
+    width: 46px;
+}
+
+.filter-viewrecordproctor {
+    margin-left: 10px;
+}
+
+.status-pending,
+.status-resolved,
+.status-rejected {
+    font-weight: bold;
+}
+
+.status-text {
+    font-weight: bold;
+}
+
+.status-pending {
+    color: orange;
+}
+
+.status-warning {
+    color: rgb(212, 212, 3);
+}
+.status-examsuspension {
+    color: rgb(22, 218, 22);
+}
+.status-acdemicsuspension {
+    color: rgb(22, 218, 22);
+}
+.status-rejected {
+    color: red;
+}
+
+@media only screen and (max-width: 800px) {
+    .viewrecordproctor-table,
+    .viewrecordproctor-table thead,
+    .viewrecordproctor-table tbody,
+    .viewrecordproctor-table th,
+    .viewrecordproctor-table td,
+    .viewrecordproctor-table tr {
+        display: block;
+    }
+
+    .body-container-viewrecordproctor button {
+        margin-left: 3px;
+        font-size: 12px;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    .viewrecordproctor-table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .viewrecordproctor-table tr {
+        border: 1px solid #b3b1b1;
+        margin-bottom: 5px;
+    }
+
+    .viewrecordproctor-table td {
+        border: none;
+        border-bottom: 1px solid #b3b1b1;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .viewrecordproctor-table td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: right;
+        font-weight: 400;
+        content: attr(data-title);
+    }
+}

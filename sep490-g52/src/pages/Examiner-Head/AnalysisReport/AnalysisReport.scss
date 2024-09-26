@@ -1,0 +1,141 @@
+.main-container-analysis {
+    height: 89.5vh;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.main-container-analysis .header-analysis {
+    margin-bottom: 20px;
+}
+
+.main-container-analysis .body-container-analysis {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fixed-width-input {
+    width: 144px !important;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.fixed-width-input1 {
+    width: 144px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.css-1wa3eu0-placeholder {
+    color: #6c757d; /* Đổi màu placeholder thành màu xám nhạt */
+}
+
+.main-container-analysis .body-container-analysis p,
+.main-container-analysis .body-container-analysis span {
+    font-size: 14px;
+}
+
+.main-container-analysis .body-container-analysis input[type='text'] {
+    width: 30%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.main-container-analysis .body-container-analysis button {
+    padding: 10px 20px;
+    border: none;
+}
+
+.main-container-analysis .body-container-analysis p,
+.main-container-analysis .body-container-analysis input,
+.main-container-analysis .body-container-analysis button,
+.main-container-analysis .body-container-analysis span {
+    margin-right: 10px;
+}
+
+.header-analysis .link-analysis {
+    text-decoration: none;
+}
+
+.header-analysis .link-analysis:hover {
+    text-decoration: underline;
+}
+
+.main-container-analysis .statistics-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistics-container .statistics-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 350px;
+    height: 150px;
+    font-size: 20px;
+    font-weight: 600;
+
+    &.active {
+        border: 1px solid orange;
+    }
+
+    &:hover {
+        border: 1px solid orange;
+    }
+}
+
+.statistics-container .statistics-button:hover {
+    border: 1px solid orange;
+}
+
+.statistics-button .count-statistics {
+    font-size: 30px;
+}
+
+.main-container-analysis .student-content,
+.main-container-analysis .request-content,
+.main-container-analysis .violation-content {
+    margin-bottom: 30px;
+}
+
+.student-content .table-analysis-student,
+.request-content .table-analysis-request,
+.violation-content .table-analysis-violation {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student-content .table-analysis-student th,
+.student-content .table-analysis-student td,
+.request-content .table-analysis-request th,
+.request-content .table-analysis-request td,
+.violation-content .table-analysis-violation th,
+.violation-content .table-analysis-violation td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.student-content .table-analysis-student tbody tr:nth-child(even),
+.request-content .table-analysis-request tbody tr:nth-child(even),
+.violation-content .table-analysis-violation tbody tr:nth-child(even) {
+    background-color: #e9e9e9;
+}
+
+.student-content .table-analysis-student thead tr th,
+.request-content .table-analysis-request thead tr th,
+.violation-content .table-analysis-violation thead tr th {
+    background-color: #e9e9e9;
+}

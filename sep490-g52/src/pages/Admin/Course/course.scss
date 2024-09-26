@@ -1,0 +1,52 @@
+html,
+body {
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.course-top-header {
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.course-link-header {
+    text-decoration: none;
+    color: #0E5BA9;
+    font-size: 14px;
+}
+
+.course-text-header {
+    border-bottom: 1px solid #F4F4F4;
+    padding-bottom: 30px;
+}
+
+.course-top-content {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.course-form-content {
+    font-size: 14px;
+}
+
+.course-input-content {
+    width: 25%;
+    padding: 10px 5px 10px 5px;
+    border-radius: 3px;
+    margin-right: 50px;
+    border: 1px solid #CDCDCD;
+}
+
+.course-button-content {
+    font-size: 14px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    background-color: #5CB85C;
+    border: 1px solid #44AB44;
+    border-radius: 5px;
+}
+
+.course-select-content {
+    padding: 5px;
+}

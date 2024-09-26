@@ -1,0 +1,173 @@
+.main-container-handlerequest {
+    height: 89.5vh;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.handlerequest-management-link {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.body-container-handlerequest {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+.body-container-handlerequest p {
+    font-size: 14px;
+}
+
+.body-container-handlerequest p,
+.body-container-handlerequest input {
+    margin-right: 10px;
+}
+
+.body-container-handlerequest1 input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.body-container-handlerequest1 button {
+    margin-left: 3px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.body-container-handlerequest1 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+.body-container-handlerequest1 p {
+    font-size: 14px;
+}
+
+.body-container-handlerequest1 p,
+.body-container-handlerequest1 input {
+    margin-right: 10px;
+}
+
+.handlerequest-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.handlerequest-table th,
+.handlerequest-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.handlerequest-table tbody tr:nth-child(even) {
+    background-color: #e9e9e9;
+}
+
+.handlerequest-table thead tr th {
+    background-color: #e9e9e9;
+}
+
+.checkin-body {
+    display: block;
+}
+
+.checkin-edit {
+    width: 46px;
+}
+
+.filter-handlerequest {
+    margin-left: 10px;
+}
+
+.form-select-datepicker {
+    width: 100%;
+    height: 24px;
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+select.form-select-handlerequest.form-select {
+    width: 200px;
+}
+select.form-select-handlerequest.form-select {
+    width: 117px;
+}
+
+.form-select-handlerequest.DatePicker {
+    width: 200px;
+}
+
+.fixed-width-input1 {
+    width: 144px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .handlerequest-table,
+    .handlerequest-table thead,
+    .handlerequest-table tbody,
+    .handlerequest-table th,
+    .handlerequest-table td,
+    .handlerequest-table tr {
+        display: block;
+    }
+
+    .body-container-handlerequest button {
+        margin-left: 3px;
+        font-size: 12px;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    .handlerequest-table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .handlerequest-table tr {
+        border: 1px solid #b3b1b1;
+        margin-bottom: 5px;
+    }
+
+    .handlerequest-table td {
+        border: none;
+        border-bottom: 1px solid #b3b1b1;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align: left;
+    }
+
+    .handlerequest-table td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: left;
+        font-weight: bold;
+        content: attr(data-title);
+    }
+}

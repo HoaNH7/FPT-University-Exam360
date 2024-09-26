@@ -1,0 +1,225 @@
+//common
+.backtolist,
+.action-links {
+    text-decoration: none;
+    color: rgb(26, 107, 237);
+}
+
+/* user management */
+
+.main-container-userexaminerhead {
+    height: 89.5vh;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.userexaminerhead-management-header {
+    margin-bottom: 20px;
+}
+.userexaminerhead-management-link {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.body-container-userexaminerhead {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.body-container-userexaminerhead p {
+    font-size: 14px;
+}
+
+.body-container-userexaminerhead p,
+.body-container-userexaminerhead input {
+    margin-right: 10px;
+}
+.body-container-userexaminerhead input[type='text'] {
+    width: 30%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.body-container-userexaminerhead button {
+    margin-left: 3px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.userexaminerhead-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.userexaminerhead-table th,
+.userexaminerhead-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.userexaminerhead-name-button:nth-child(odd) {
+    border: none;
+    background: none;
+    color: rgb(26, 107, 237);
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.userexaminerhead-name-button:hover {
+    text-decoration: underline;
+}
+
+.userexaminerhead-table tbody tr:nth-child(even) {
+    background-color: #e9e9e9;
+}
+
+.userexaminerhead-table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.userexaminerhead-table thead tr th {
+    background-color: #e9e9e9;
+}
+
+.button-examinerhead:hover {
+    text-decoration: underline;
+}
+
+.userexaminerhead-table tbody tr td button {
+    border: none;
+    background: transparent;
+    color: #1a6bed;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+/*edituserexaminerhead*/
+.edit-user-header {
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 22px;
+}
+.form-edituser {
+    margin-top: 20px;
+    padding-left: 100px;
+}
+.form-edituser button {
+    // background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*adduser*/
+.add-user-header {
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 22px;
+}
+.form-adduser {
+    margin-top: 20px;
+    padding-left: 100px;
+}
+
+.home-link {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: rgb(26, 107, 237);
+    font-size: 14px;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+}
+.form-group label,
+.form-group div {
+    margin-right: 8px;
+}
+.add-user button {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+/* detailUser.css */
+.user-detail-container {
+    max-width: 50%;
+    margin: 10px 25%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.detail-info {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 800px) {
+    .userexaminerhead-table,
+    .userexaminerhead-table thead,
+    .userexaminerhead-table tbody,
+    .userexaminerhead-table th,
+    .userexaminerhead-table td,
+    .userexaminerhead-table tr {
+        display: block;
+    }
+
+    .body-container-userexaminerhead button {
+        margin-left: 3px;
+        font-size: 12px;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    .userexaminerhead-table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .userexaminerhead-table tr {
+        border: 1px solid #b3b1b1;
+        margin-bottom: 5px;
+    }
+
+    .userexaminerhead-table td {
+        border: none;
+        border-bottom: 1px solid #b3b1b1;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align: left;
+    }
+
+    .userexaminerhead-table td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: left;
+        font-weight: bold;
+        content: attr(data-title);
+    }
+}

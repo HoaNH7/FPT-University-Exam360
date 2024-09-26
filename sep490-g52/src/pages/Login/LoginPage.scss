@@ -1,0 +1,59 @@
+/* General styles for desktop and larger screens */
+.wrapper-col-left {
+    margin-top: 30vh;
+    text-align: center;
+}
+.login-text {
+    font-weight: bold;
+}
+.login-text-p {
+    margin-bottom: 25px;
+    opacity: 0.7;
+}
+.select-campus {
+    width: 50% !important;
+    margin: 0 auto 16px;
+    height: 38px;
+}
+.signin-google {
+    width: 50%;
+    margin: 0 auto;
+    height: 38px;
+}
+.footer-login {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #fe6f20;
+    margin-top: 40vh;
+}
+.footer-login p {
+    font-size: 14px;
+    margin: 0 20px;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    .wrapper-col-left {
+        margin-top: 26vh;
+        padding: 0 20px;
+    }
+    .login-text,
+    .login-text-p {
+        font-size: 1.5rem;
+    }
+    .select-campus,
+    .signin-google {
+        width: 100% !important;
+        margin: 0 auto 16px;
+    }
+    .footer-login {
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        margin-top: 20vh;
+    }
+    .footer-login p {
+        margin: 10px 0;
+    }
+}
